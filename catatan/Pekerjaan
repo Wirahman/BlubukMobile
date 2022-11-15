@@ -1,0 +1,9 @@
+Chat
+1. Setelah Upload foto, belum langsung tampil di list balas chat dan chat
+
+Edit Forum
+1. Buat fitur hapus foto forum ketika ubah forum
+
+Emote
+1. Terdapat error = "Another exception was thrown: Incorrect use of ParentDataWidget" ketika menampilkan emote
+2. Setelah menemukan cara perbaiki error, lakukan perubahan di fitur (Status, Komentar Status, Chat, Balas Chat, Forum, Balas Forum)

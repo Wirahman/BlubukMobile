@@ -1,0 +1,7 @@
+1. Menggunakan gitlab
+
+
+Cara push git
+1. git add .
+2. git commit -m "[pesan commit]"
+3. git push

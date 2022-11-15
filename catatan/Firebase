@@ -1,0 +1,3 @@
+firebase use --add = Menambah project firebase
+firebase projects:list = Menampilkan daftar project firebase
+firebase deploy = deploy project firebase

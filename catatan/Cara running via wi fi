@@ -1,0 +1,18 @@
+1. Buka smartphone(Status->Pilihan Pengembang)
+2. Ceklis Debugging USB
+3. Ceklis Proses debug nirkabel
+4. Buka Konfigurasi USB Default(Pilih yang Mentransfer File)
+5. Hubungkan smartphone dengan laptop menggunakan kabel data
+6. Buka tcpip 5555
+7. tunggu hingga ada return (restarting in TCP mode port: 5555)
+8. hubungkan dengan ip address smartphone
+9. Ip address smartphone ada di (setting->tentang ponsel->informasi status)
+10. periksa devices di adb
+11. jika statusnya "unauthorized" maka kill adb
+12. hubungkan dengan ip address smartphone lagi
+
+
+kill adb = adb kill-server
+Buka tcpip 5555 = adb tcpip 5555
+contoh hubungkan ip address smartphone = adb connect 192.168.0.100
+periksa devices di adb = adb devices
